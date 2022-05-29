@@ -97,7 +97,7 @@ public class Res extends RESTService {
   @Produces(MediaType.APPLICATION_JSON)
   @Consumes(MediaType.TEXT_PLAIN)
   @ApiResponses(value = {
-       @ApiResponse(code = HttpURLConnection.HTTP_OK, message = "res")
+       @ApiResponse(code = HttpURLConnection.HTTP_BAD_REQUEST, message = "res")
   })
   @ApiOperation(value = "getTest", notes = " ")
   public Response getTest() {
